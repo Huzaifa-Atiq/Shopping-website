@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 68px;
+    width: 100%;
+    background: none;
+    top: 0;
+    left: 0;
+    color: white;
+    align-items: center;
+}
+
+.title{
+    font-size: 3vmin;
+    margin-left: 310px;
+    width: 19%;
+}
+
+.navbar a{
+    margin-right: 50px;
+    font-size: 2vmin;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+}
+
+.navbar a:hover{
+    color: #ce3232;
+}
+
+.btn{
+    color: white;
+    background-color: #ce3232;
+    width: 130px;
+    height: 45px;
+    border-radius: 35px;
+    margin-left: 300px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+
+.btn:hover{
+    background-color: #434343;
+    border: 1px solid black;
+}
+
+.btn h5{
+    padding-left: 35px;
+    padding-top:13px ;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.img{
+    height: 912px;
+    background-image: url(shopp\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section1{
+    height: 918px;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.section1 h2{
+    padding-top: 50px;
+    padding-left: 850px;
+    font-size: 3vmin;
+    font-weight: 300;
+}
